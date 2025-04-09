@@ -5,9 +5,9 @@ const Skills = () => {
     <div>
       <div
         id="Skills"
-        className="HomeContainer h-auto bg-[#313c5e] mb-flex flex-col pt-[80px] mt-[80px] pb-10"
+        className="SkillsContainer h-auto bg-[#313c5e] mb-flex flex-col pt-[80px] mt-[80px] pb-10"
       >
-        <h2 className="text-3xl text-[#c0c4d4] font-sans ml-5 mt-10">Skills</h2>
+        <h2 className="text-3xl text-[#f4d35e] font-sans ml-5 mt-10">Skills</h2>
         <h3 className="ml-5 text-[#c0c4d4] mt-2 mr-5">Hard Skills</h3>
         <ul className="ml-5 text-[#c0c4d4] mt-2">
           <li className="">HTML</li>

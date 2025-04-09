@@ -5,9 +5,9 @@ const Contacts = () => {
     <div>
       <div
         id="Contacts"
-        className="HomeContainer h-96 bg-[#313c5e] mb- flex flex-col pt-[80px] mt-[80px]"
+        className="ContactsContainer h-96 bg-[#313c5e] mb- flex flex-col pt-[80px] mt-[80px]"
       >
-        <p className="text-3xl text-[#c0c4d4] font-sans ml-5 mt-10">Contacts</p>
+        <p className="text-3xl text-[#f4d35e] font-sans ml-5 mt-10">Contacts</p>
         <p className="ml-5 text-[#c0c4d4]">
           koharyboris@gmail.com
         </p>

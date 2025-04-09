@@ -48,7 +48,7 @@ const Navigation = () => {
           <li className="py-6 text-4xl">
             <a
               href="#Home"
-              className="text-[#cbc7c7] hover:text-[#a29e9e]"
+              className="text-[#cbc7c7] hover:text-[#6f90c3]"
               onClick={handleClose}
             >
               Home
@@ -57,7 +57,7 @@ const Navigation = () => {
           <li className="py-6 text-4xl">
             <a
               href="#About"
-              className="text-[#cbc7c7] hover:text-[#a29e9e]"
+              className="text-[#cbc7c7] hover:text-[#6f90c3]"
               onClick={handleClose}
             >
               About
@@ -66,7 +66,7 @@ const Navigation = () => {
           <li className="py-6 text-4xl">
             <a
               href="#Skills"
-              className="text-[#cbc7c7] hover:text-[#a29e9e]"
+              className="text-[#cbc7c7] hover:text-[#6f90c3]"
               onClick={handleClose}
             >
               Skills
@@ -75,7 +75,7 @@ const Navigation = () => {
           <li className="py-6 text-4xl">
             <a
               href="#Contacts"
-              className="text-[#cbc7c7] hover:text-[#a29e9e]"
+              className="text-[#cbc7c7] hover:text-[#6f90c3]"
               onClick={handleClose}
             >
               Contacts
@@ -92,11 +92,11 @@ const Navigation = () => {
       )}
 
       {/* socka siete */}
-      <div className="flex fixed flex-col top-[35%] left-0">
+      <div className="flex fixed flex-col top-[75%] lg:top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
             <a
-              className="flex justify-between items-center w-full text-gray-500"
+              className="flex justify-between items-center w-full text-[#0a192f] font-bold"
               href="/"
             >
               Linkedin <FaLinkedin size={30} />
@@ -104,7 +104,7 @@ const Navigation = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
             <a
-              className="flex justify-between items-center w-full text-gray-500"
+              className="flex justify-between items-center w-full text-[#0a192f] font-bold"
               href="/"
             >
               GitHub <FaGithub size={30} />

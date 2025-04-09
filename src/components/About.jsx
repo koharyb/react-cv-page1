@@ -5,9 +5,9 @@ const About = () => {
     <div>
     <div
       id="About"
-      className="HomeContainer h-auto bg-[#313c5e] flex flex-col pt-[80px] mt-[80px] pb-10"
+      className="AboutContainer h-auto bg-[#313c5e] flex flex-col pt-[80px] mt-[80px] pb-10"
     >
-      <p className="text-3xl text-[#c0c4d4] font-sans ml-5 mt-10">About Me:</p>
+      <p className="text-3xl text-[#f4d35e] font-sans ml-5 mt-10">About Me:</p>
       <p className="ml-5 text-[#c0c4d4] mt-2 mr-5">
         I'm Boris — a curious soul who spent over a decade in the transport business, 
         mastering logistics, planning, and team coordination. But deep down, I’ve always 
