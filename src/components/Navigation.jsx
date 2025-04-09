@@ -82,12 +82,7 @@ const Navigation = () => {
             </a>
           </li>
 
-           <div className="relative mt-44 flex flex-col items-center gap-2">
-                    <h2 className=" text-white  whitespace-nowrap font-sans">
-                      Created by Kohary Boris
-                    </h2>
-                    <img src={lambdaImg} alt="Lambda Logo" className="w-6 h-6" />
-                  </div>
+           
         </ul>
       )}
 
