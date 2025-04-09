@@ -4,7 +4,7 @@ import lambdaImg from "../assets/lambda.svg";
 const Footer = () => {
   return (
     <div>
-      <div className="FooterContainer h-43 bg-[#313c5e] pt-[80px] mt-[80px]">
+      <div className="FooterContainer h-43 bg-[#050c16] pt-[80px] mt-[80px]">
         <div className=" mt-auto flex flex-col items-center gap-2">
           <h2 className=" text-white  whitespace-nowrap">
             Created by Kohary Boris

@@ -18,37 +18,37 @@ const Navigation = () => {
   };
 
   return (
-    <div className="fixed top-0 w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <a href="#Home" className="hover:text-[#4e588a]" onClick={handleClose}>B.K</a>
+    <div className="fixed top-0 w-full h-[80px] flex justify-between items-center px-4 bg-[#050c16] text-gray-300">
+      <a href="#Home" className="hover:text-[#4e588a] font-sans text-[#f4d35e]" onClick={handleClose}>B.K</a>
 
       <ul className="hidden md:flex">
         <li>
-          <a href="#Home" className="hover:text-[#4e588a]" onClick={handleClose}>Home</a>
+          <a href="#Home" className="hover:text-[#4e588a] text-[#f4d35e] font-sans" onClick={handleClose}>Home</a>
         </li>
         <li>
-          <a href="#About" className="hover:text-[#4e588a]" onClick={handleClose}>About</a>
+          <a href="#About" className="hover:text-[#4e588a] text-[#f4d35e] font-sans" onClick={handleClose}>About</a>
         </li>
         <li>
-          <a href="#Skills" className="hover:text-[#4e588a]" onClick={handleClose}>Skills</a>
+          <a href="#Skills" className="hover:text-[#4e588a] text-[#f4d35e] font-sans" onClick={handleClose}>Skills</a>
         </li>
         <li>
-          <a href="#Contacts" className="hover:text-[#4e588a]" onClick={handleClose}>Contacts</a>
+          <a href="#Contacts" className="hover:text-[#4e588a] text-[#f4d35e] font-sans" onClick={handleClose}>Contacts</a>
         </li>
       </ul>
 
       {/* Hamburger Icon */}
-      <div onClick={ClickNav} className="md:hidden z-11 cursor-pointer text-[#dfd4d4] relative ml-2">
+      <div onClick={ClickNav} className="md:hidden z-11 cursor-pointer text-[#f4d35e] relative ml-2">
         {!navOn ? <FaBars size={30} /> : <FaTimes size={30} />}
         
       </div>
 
       {/* Mobilne Menu */}
       {navOn && (
-        <ul className="absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center z-10 ">
+        <ul className="absolute top-0 left-0 w-full h-screen bg-[#050c16] flex flex-col justify-center items-center z-10 ">
           <li className="py-6 text-4xl">
             <a
               href="#Home"
-              className="text-[#cbc7c7] hover:text-[#6f90c3]"
+              className="hover:text-[#6f90c3] text-[#f4d35e] font-sans"
               onClick={handleClose}
             >
               Home
@@ -57,7 +57,7 @@ const Navigation = () => {
           <li className="py-6 text-4xl">
             <a
               href="#About"
-              className="text-[#cbc7c7] hover:text-[#6f90c3]"
+              className="hover:text-[#6f90c3] text-[#f4d35e] font-sans"
               onClick={handleClose}
             >
               About
@@ -66,7 +66,7 @@ const Navigation = () => {
           <li className="py-6 text-4xl">
             <a
               href="#Skills"
-              className="text-[#cbc7c7] hover:text-[#6f90c3]"
+              className="hover:text-[#6f90c3] text-[#f4d35e] font-sans"
               onClick={handleClose}
             >
               Skills
@@ -75,7 +75,7 @@ const Navigation = () => {
           <li className="py-6 text-4xl">
             <a
               href="#Contacts"
-              className="text-[#cbc7c7] hover:text-[#6f90c3]"
+              className="hover:text-[#6f90c3] text-[#f4d35e] font-sans"
               onClick={handleClose}
             >
               Contacts
@@ -83,7 +83,7 @@ const Navigation = () => {
           </li>
 
            <div className="relative mt-44 flex flex-col items-center gap-2">
-                    <h2 className=" text-white  whitespace-nowrap">
+                    <h2 className=" text-white  whitespace-nowrap font-sans">
                       Created by Kohary Boris
                     </h2>
                     <img src={lambdaImg} alt="Lambda Logo" className="w-6 h-6" />
@@ -96,16 +96,16 @@ const Navigation = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
             <a
-              className="flex justify-between items-center w-full text-[#0a192f] font-bold"
-              href="https://www.linkedin.com/in/boris-koh%C3%A1ry-587338196/"
+              className="flex justify-between items-center w-full text-[#f4d35e] font-bold font-sans"
+              href="https://www.linkedin.com/in/boris-koh%C3%A1ry-587338196/" target="_blank" rel="noreferrer"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
             <a
-              className="flex justify-between items-center w-full text-[#0a192f] font-bold"
-              href="/"
+              className="flex justify-between items-center w-full text-[#f4d35e] font-bold font-sans"
+              href="https://github.com/koharyb" target="_blank" rel="noreferrer"
             >
               GitHub <FaGithub size={30} />
             </a>
