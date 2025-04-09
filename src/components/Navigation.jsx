@@ -97,7 +97,7 @@ const Navigation = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
             <a
               className="flex justify-between items-center w-full text-[#0a192f] font-bold"
-              href="/"
+              href="https://www.linkedin.com/in/boris-koh%C3%A1ry-587338196/"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
