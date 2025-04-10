@@ -28,9 +28,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@font-face {
-  font-family: "StarshipTroopers";
-  src: url('/fonts/troopersexpandleft.ttf') format("truetype");
-  font-weight: normal;
-  font-style: normal;
+/* all color pallete for whole project  */
+@theme { 
+  --color-basicText    : #faebd7;
 }
